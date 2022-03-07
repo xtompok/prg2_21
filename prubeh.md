@@ -11,3 +11,14 @@
 
 ## 2. přednáška
   - [Čtvrtá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/04_city_list) lekce tutoriálu
+
+## 3. cvičení
+  - [Pátá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/05_city_map) lekce tutoriálu
+
+## 3. přednáška
+  - [Šestá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/06_todo_list) lekce tutoriálu
+
+## 4. cvičení (plán)
+  - dokončení [šesté](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/06_todo_list) lekce tutoriálu
+  - zadání [1. domácího úkolu](du01/)
+  - složitost a třídící algoritmy
