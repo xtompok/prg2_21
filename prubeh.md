@@ -18,7 +18,11 @@
 ## 3. přednáška
   - [Šestá](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/06_todo_list) lekce tutoriálu
 
-## 4. cvičení (plán)
+## 4. cvičení
   - dokončení [šesté](https://github.com/xtompok/PySide6_QML_tutorial/tree/master/06_todo_list) lekce tutoriálu
   - zadání [1. domácího úkolu](du01/)
-  - složitost a třídící algoritmy
+  - složitost
+  - select sort (inplace i neinplace)
+
+## 5. cvičení (plán)
+  - quick sort
