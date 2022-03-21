@@ -24,5 +24,16 @@
   - složitost
   - select sort (inplace i neinplace)
 
-## 5. cvičení (plán)
+## 5. cvičení
   - quick sort
+
+## 6. cvičení
+  - quick sort - dokončení
+  - teoretická mez porovnávacího třídění
+  - merge sort, radix sort - princip a využití
+  - haldy - úvod
+
+## 7. cvičení (plán)
+  - haldy - implementace
+  - třídění a haldy pomocí modulů Pythonu
+  - klíče a lambda funkce
