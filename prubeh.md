@@ -33,7 +33,17 @@
   - merge sort, radix sort - princip a využití
   - haldy - úvod
 
-## 7. cvičení (plán)
+## 7. cvičení
   - haldy - implementace
   - třídění a haldy pomocí modulů Pythonu
   - klíče a lambda funkce
+
+## 8. cvičení
+  - odpadlo
+
+## 9. cvičení
+  - binární stromy a jejich reprezentace pomocí tříd
+
+## 10. cvičení
+  - nebylo (Velikonoční pondělí)
+
