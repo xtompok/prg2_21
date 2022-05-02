@@ -2,15 +2,15 @@
 
 ## Zadání
 
-Implementujte program, který načte jízdní řády z formátu GTFS a urči
+Implementujte program, který načte jízdní řády z formátu [GTFS](https://developers.google.com/transit/gtfs/reference) a urči
 nejfrekventovanější mezizastávkový úsek. 
 
 Program bude reprezentovat jako objekty jednotlivé prvky alespoň následujících
 souborů:
-  - `stops.txt`
-  - `stop_times.txt`
-  - `trips.txt`
-  - `routes.txt`
+  - [`stops.txt`](https://developers.google.com/transit/gtfs/reference#stopstxt)
+  - [`stop_times.txt`](https://developers.google.com/transit/gtfs/reference#stop_timestxt)
+  - [`trips.txt`](https://developers.google.com/transit/gtfs/reference#tripstxt)
+  - [`routes.txt`](https://developers.google.com/transit/gtfs/reference#routestxt)
 
 Pro každý soubor bude existovat jemu odpovídající třída, každý prvek daného
 souboru bude instancí dané třídy. Vzájemné vazby mezi objekty by měly být
@@ -33,7 +33,8 @@ nejfrekventovanějších po nejméně frekventované. Vypíše vždy jméno poč
 zastávky, jméno koncové zastávky a počet spojů (trips) daným úsekem
 projíždějících.
 
-Základní verze cíleně ignoruje `calendar.txt` a `calendar_dates.txt`, tudíž
+Základní verze cíleně ignoruje [`calendar.txt`](https://developers.google.com/transit/gtfs/reference#calendartxt) a [`calendar_dates.txt`](https://developers.google.com/transit/gtfs/reference#calendar_datestxt
+), tudíž
 budou výsledky zkreslené. Pro základní verzi je to v pořádku.
 
 ### Dokumentace
@@ -54,8 +55,8 @@ Využijte slovníků jako "slovníků", tedy můžete například držet id jako
 jim odpovídající objekty jako hodnoty. Využijte toho, že klíčem může být i
 n-tice.
 
-Pro načítání GTFS souborů využijte modul `csv`. Pro čitelnější načítání odolné
-proti změnám pořadí sloupců se vám může hodit `DictReader`.
+Pro načítání GTFS souborů využijte modul [`csv`](https://docs.python.org/3/library/csv.html). Pro čitelnější načítání odolné
+proti změnám pořadí sloupců se vám může hodit [`DictReader`](https://docs.python.org/3/library/csv.html#csv.DictReader).
 
 Jednotlivé `.txt` soubory nedávejte do Gitu.
 
@@ -97,9 +98,9 @@ může, ale nemusí, být součástí aplikace.
 ### Uvažování kalendáře pro výpočet (1 -- 2 b)
 Program vezme jako první parametr (v `sys.argv[1]`) datum ve formátu
 `DD.MM.YYYY` a bude uvažovat pouze spoje jedoucí daný den. Využijte modulu
-`datetime`, ve variantě za 1 bod uvažujte pouze informace uvedené v
-`calendar.txt`, ve variantě za 2 body uvažujte navíc i seznam výjimek ze souboru
-`calendar_dates.txt`.
+[`datetime`](https://docs.python.org/3/library/datetime.html), ve variantě za 1 bod uvažujte pouze informace uvedené v
+[`calendar.txt`](https://developers.google.com/transit/gtfs/reference#calendartxt), ve variantě za 2 body uvažujte navíc i seznam výjimek ze souboru
+[`calendar_dates.txt`](https://developers.google.com/transit/gtfs/reference#calendar_datestxt).
 
 ### Výpis linek ve výstupech (1 b)
 Při výpisu výstupů vypište kromě celkového počtu spojů projíždějících daným
