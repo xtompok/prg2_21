@@ -47,3 +47,12 @@
 ## 10. cvičení
   - nebylo (Velikonoční pondělí)
 
+## 11. cvičení
+  - instalace Anacondy
+  - zadání 2. DÚ
+  - NetworkX - vytvoření grafu z GeoJSONu, zobrazení
+
+## 12. cvičení (plán)
+  - konzultace DÚ
+  - parkovací zóny a parkovací úseky
+  - práce s rastrovými daty - načítání, NDVI, extrakce vodních ploch, vektorizace
