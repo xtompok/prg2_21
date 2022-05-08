@@ -52,7 +52,15 @@
   - zadání 2. DÚ
   - NetworkX - vytvoření grafu z GeoJSONu, zobrazení
 
-## 12. cvičení (plán)
+## 12. cvičení
   - konzultace DÚ
   - parkovací zóny a parkovací úseky
-  - práce s rastrovými daty - načítání, NDVI, extrakce vodních ploch, vektorizace
+  - práce s rastrovými daty - načítání, NDVI
+
+## 13. cvičení (plán)
+  - konzultace DÚ
+  - zadání 3. DÚ
+  - klasifikace rastrů pomocí tresholdingu
+  - dilatace a eroze
+  - vektorizace
+  - pokus o strojovou klasifikaci pomocí trénovací množiny
